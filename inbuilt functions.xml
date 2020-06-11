@@ -1,0 +1,34 @@
+// Inbuilt functions
+
+print()
+str()
+int()
+bool()
+float()
+len()
+sorted()
+eval()
+
+// User defined functions:
+
+def my_function():      // camel case used
+    print("this is a function")   // indentations with a multiple of 4 for each block
+
+my_function()    // calls the function
+
+// Default Args
+
+def my_func(arg1,arg2):
+    print(arg1)
+    print(arg2)
+
+my_func(arg2=10, arg1= "Hello")  // can give output to any params using keyword params
+
+
+// Infinite Args
+
+def print_people(*people):  // puts all arg values during calling in one
+    for person in people:
+        print(person)
+
+print_people("", "", "", "")

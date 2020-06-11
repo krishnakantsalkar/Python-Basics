@@ -1,0 +1,24 @@
+If-Else
+
+if somethng == True:
+    print()
+elif something == new:
+    print()
+elif somethng == new 1:
+    print()
+else:
+    print()
+
+For-While loops
+
+
+//
+for objs in Array:
+    print(objs)
+
+
+//
+somethng = True
+while somethng:
+    somefunc()
+    var = somethng

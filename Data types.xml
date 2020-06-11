@@ -1,0 +1,23 @@
+Data types:
+
+string
+number{ integer, floating point }
+boolean
+etc
+
+convert str to int {
+int('5') = 5
+}
+
+convert int to str {
+str(5) = "5"
+}
+
+convert str to bool {
+bool("True")= True
+}
+
+
+Arrays = Lists
+
+JSON objs = Dictionaries
